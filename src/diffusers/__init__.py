@@ -173,6 +173,7 @@ else:
         StableDiffusionControlNetImg2ImgPipeline,
         StableDiffusionControlNetInpaintPipeline,
         StableDiffusionControlNetPipeline,
+        MultiControlNetModel,
         StableDiffusionDepth2ImgPipeline,
         StableDiffusionDiffEditPipeline,
         StableDiffusionGLIGENPipeline,
