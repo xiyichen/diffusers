@@ -296,3 +296,5 @@ except OptionalDependencyNotAvailable:
     from .utils.dummy_note_seq_objects import *  # noqa F403
 else:
     from .pipelines import MidiProcessor
+
+from .image_processor import VaeImageProcessor
